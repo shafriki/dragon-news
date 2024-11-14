@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Latest = () => {
     return (
-        <div className='flex items-center max-w-screen-xl mx-auto gap-2 bg-base-200 p-2'>
+        <div className='flex items-center max-w-screen-xl mx-auto gap-2 bg-base-200 p-2 text-xs md:text-base'>
             <p className='bg-[#D72050] px-4 py-2 text-white'>Latest</p>
 
             <Marquee autoFill='ture' pauseOnHover='ture'>

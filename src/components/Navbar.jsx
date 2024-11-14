@@ -11,16 +11,16 @@ const Navbar = () => {
             <div></div>
 
             {/* navlink */}
-            <div className='flex items-center gap-5'>
+            <div className='flex items-center gap-5 text-xs md:text-base'>
                 <NavLink>Home</NavLink>
                 <NavLink>About</NavLink>
                 <NavLink>Career</NavLink>
             </div>
 
             {/* login */}
-            <div className='flex  items-center gap-2'>
+            <div className='flex  items-center gap-2 mx-3 md:mx-0'>
                 <img src={userIcon} alt="user" className='w-10' />
-                <button className='btn bg-[#403F3F] text-white px-8 rounded-none'>Login</button>
+                <button className='btn text-xs md:text-base bg-[#403F3F] text-white md:px-8 rounded-none'>Login</button>
             </div>
         </div>
     );
