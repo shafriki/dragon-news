@@ -1,8 +1,8 @@
-# React + Vite
+# Project Name: Dream BPL - Select Your XI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Short Description
+"Dragoon News" is a dynamic, mobile-friendly front-end application developed with React, designed to deliver up-to-the-minute news on a range of topics. It features secure user authentication through Firebase, allowing users to enjoy a personalized experience and access tailored news updates seamlessly across all devices.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Link
+[Click here to view live project](https://dragon-news-ebon-six.vercel.app/category/01)
