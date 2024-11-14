@@ -10,10 +10,10 @@ const LeftSec = () => {
     return (
         <div>
             <h1 className='font-semibold'>All Category ({categories.length}) </h1>
-            <div className='flex flex-col items-start gap-2 mt-2'>
+            <div className='flex flex-col  gap-2 mt-2'>
                 {
                     categories.map((category) => (
-                        <button className='btn text-xs w-40 rounded-none' key={category.category_id}>
+                        <button className='btn text-xs rounded-none' key={category.category_id}>
                             {category.category_name}
                         </button>
                     ))
